@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@theme {
+  --color-newgrey: #858786;
+}
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+/* Ensure the zoom background is white like the original */
+[data-rmiz-modal-overlay="visible"] {
+    background-color: white !important;
+}
+
+html {
+    overflow-y: scroll;
+}
